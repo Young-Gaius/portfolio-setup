@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'inter', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 15px;
+}
+
+.green-h1 {
+  color: #36b37e;
+}
+
+.main-section {
+  background-image: url(images/background.svg);
+  background-size: cover;
+}
+
+.Introduction {
+  text-align: center;
+  padding-top: 20%;
+  font-size: 200%;
+  line-height: 45px;
+}
+
+.first-paragraph {
+  text-align: center;
+  margin: auto;
+  font-size: 150%;
+  font-weight: 500;
+  color: #172b4d;
+  padding: 0 8%;
+}
+
+.social-media {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 13px;
+  align-items: center;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.down-button {
+  justify-content: center;
+  display: flex;
+  margin-top: 20%;
+  padding-bottom: 10px;
+}
