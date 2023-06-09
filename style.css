@@ -282,6 +282,54 @@ main {
   padding-bottom: 1rem;
 }
 
+.comment {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color:#172b4d; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+.data {
+  margin-top: 50px;
+  width: 90%;
+  margin: 25px auto;
+  margin-bottom: 2%;
+}
 
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input_name, .input_email, .input_msg {
+  padding: 9px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+.input_msg {
+  border-color: #60c095;
+}
+
+.interaction-button{
+  outline: none;
+  border: none;
+  background: #36b37f;
+  color: #ebf0ee;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  font-size: medium;
+  margin-bottom: 36px;
+  transition-property: all;
+}
+
+.Get-in-touch-button{
+  text-align: center;
+  margin-top: 25px;
+}
 
