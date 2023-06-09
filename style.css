@@ -286,13 +286,12 @@ main {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
-  color:#172b4d; 
+  color: #172b4d;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .data {
-  margin-top: 50px;
   width: 90%;
   margin: 25px auto;
   margin-bottom: 2%;
@@ -305,7 +304,9 @@ main {
   gap: 15px;
 }
 
-.input_name, .input_email, .input_msg {
+.input_name,
+.input_email,
+.input_msg {
   padding: 9px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
@@ -315,26 +316,60 @@ main {
   border-color: #60c095;
 }
 
-.interaction-button{
+.input_msg::placeholder {
+  color: #172b4d;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+.input_name::placeholder {
+  font-style: italic;
+}
+
+.input_email::placeholder {
+  font-style: italic;
+}
+
+.interaction-button {
   outline: none;
   border: none;
   background: #36b37f;
-  color: #ebf0ee;
+  color: #fff;
   border-radius: 4px;
   width: 122px;
   height: 48px;
   font-size: medium;
   margin-bottom: 36px;
   transition-property: all;
-  
 }
 
-.Get-in-touch-button{
+.interaction-button:hover {
+  background-color: #36b37f;
+}
+
+.interaction-button:active {
+  background: #008552;
+  border-radius: 4px;
+  width: 122px;
+  color: #fff;
   text-align: center;
-  margin-top: 25px;
 }
 
-.email-account{
+.Get-in-touch-button {
+  text-align: center;
+  background: #36b37f;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  color: #36b37e;
+  margin: 25px auto;
+}
+
+.email-account {
   text-align: center;
   color: #42526e;
 }
@@ -350,13 +385,14 @@ main {
   border-radius: 24px;
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .design {
   position: absolute;
-  width: 65px;
-  right: 0%;
-  bottom: -475%;
+  width: 75px;
+  right: -5%;
+  bottom: -640%;
 }
 
 .socials {
