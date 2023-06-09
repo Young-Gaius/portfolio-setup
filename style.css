@@ -281,3 +281,126 @@ h2 {
 main {
   padding-bottom: 1rem;
 }
+
+.comment {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #172b4d;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.data {
+  width: 90%;
+  margin: 25px auto;
+  margin-bottom: 2%;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input_name,
+.input_email,
+.input_msg {
+  padding: 9px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+.input_msg {
+  border-color: #60c095;
+}
+
+.input_msg::placeholder {
+  color: #172b4d;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+.input_name::placeholder {
+  font-style: italic;
+}
+
+.input_email::placeholder {
+  font-style: italic;
+}
+
+.interaction-button {
+  outline: none;
+  border: none;
+  background: #36b37f;
+  color: #fff;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  font-size: medium;
+  margin-bottom: 36px;
+  transition-property: all;
+}
+
+.interaction-button:hover {
+  background-color: #36b37f;
+}
+
+.interaction-button:active {
+  background: #008552;
+  border-radius: 4px;
+  width: 122px;
+  color: #fff;
+  text-align: center;
+}
+
+.Get-in-touch-button {
+  text-align: center;
+  background: #36b37f;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  color: #36b37e;
+  margin: 25px auto;
+}
+
+.email-account {
+  text-align: center;
+  color: #42526e;
+}
+
+.line {
+  content: '';
+  width: 120px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  background: #0d151e;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.design {
+  position: absolute;
+  width: 75px;
+  right: -5%;
+  bottom: -640%;
+}
+
+.socials {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 13px;
+  align-items: center;
+  padding: 0;
+  padding-top: 10px;
+}
