@@ -333,3 +333,37 @@ main {
   margin-top: 25px;
 }
 
+.email-account{
+  text-align: center;
+  color: #42526e;
+}
+
+.line {
+  content: '';
+  width: 120px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  background: #0d151e;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.design {
+  position: absolute;
+  width: 65px;
+  right: 0%;
+  bottom: -475%;
+}
+
+.socials {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 13px;
+  align-items: center;
+  padding: 0;
+  padding-top: 10px;
+}
