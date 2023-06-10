@@ -9,6 +9,7 @@ nav {
   flex-direction: column;
   align-items: end;
   padding: 10px;
+  top: 0;
 }
 
 .green-h1 {
@@ -58,7 +59,7 @@ nav {
 .domain {
   text-align: center;
   color: #172b4d;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .little-line {
@@ -408,10 +409,14 @@ main {
   padding-top: 10px;
 }
 
+.top-nav {
+  display: none;
+}
+
 @media (min-width: 768px) {
   body {
-    width: 100%;
-    margin: 0;
+    position: relative;
+    /* margin: 0; */
   }
 
   .desktop-introduction .desktop-green-h1 {
@@ -434,19 +439,25 @@ main {
   .top-nav {
     display: flex;
     list-style: none;
-    gap: 16px;
+    gap: 10px;
     text-align: center;
     margin: auto;
-    padding-top: 15px;
-    width: 10%;
+    padding-bottom: 50px; 
     justify-content: center;
+    color: #172b4d;
+  }
+
+  nav {
+    margin-top: 0;
   }
 
   .my-recent-works {
+    display: flex;
     text-align: center;
-    float: right;
-    width: 60%;
-    margin-bottom: 2rem;
+    float: center;
+    margin-bottom: 2rem; 
+    justify-content: center;
+    width: 100vh;
   }
 
   .break {
@@ -508,7 +519,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 110vh;
   }
 
   .fill-in-name {
@@ -554,10 +565,61 @@ main {
     width: 500px;
   }
 
-  footer {
-    padding: 25px 20px;
-    width: 110vh;
-    justify-content: space-between;
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Get-in-touch-button {
+    text-align: center;
+    background: #36b37f;
+    border-radius: 4px;
+    width: 122px;
+    height: 48px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: #36b37e;
+    margin: 0;
+  }
+
+  .interaction-button:hover {
+    background-color: #36b37f;
+  }
+  
+  .interaction-button:active {
+    background: #008552;
+    border-radius: 4px;
+  }
+
+  .left-design-design {
+    background-image: url(desktop-images/bottom-left.svg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-bottom: 10rem;
+
+  }
+
+  .bottom-center-design {
+    background-image: url(desktop-images/bottom-center.svg) no-repeat;
+    background-size: cover;
+    position: absolute;
+width: 130.28px;
+height: 105.85px;
+left: 169px;
+top: 3299px;
+margin-top: 0%;
+  }
+
+  .bottom-right-design {
+    background-image: url(desktop-images/bottom-right.svg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 110.43%;
+    right: -20.72%;
+    top: 90.29%;
+    bottom: 0.21%;
   }
 
   .design {
@@ -571,4 +633,9 @@ main {
   .l-design {
     display: none;
   }
+
+  .email-account {
+    display: none;
+  }
+
 }
