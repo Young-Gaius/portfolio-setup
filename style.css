@@ -28,6 +28,21 @@ nav {
   line-height: 45px;
   color: #172b4d;
   margin-bottom: 10px;
+  animation-name: allbuttons;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes allbuttons {
+  0% {
+    transform: scale(2);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(2);
+  }
 }
 
 .first-paragraph {
@@ -372,7 +387,11 @@ main {
   justify-content: center;
   color: #36b37e;
   margin: 25px auto;
+  animation-name: allbuttons;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
 }
+
 
 .email-account {
   text-align: center;
