@@ -1,13 +1,14 @@
 body {
   margin: 0;
   font-family: 'inter', sans-serif;
+  width: 100%;
 }
 
 nav {
   display: flex;
   flex-direction: column;
   align-items: end;
-  padding: 15px;
+  padding: 10px;
 }
 
 .green-h1 {
@@ -25,6 +26,7 @@ nav {
   font-size: 200%;
   line-height: 45px;
   color: #172b4d;
+  margin-bottom: 10px;
 }
 
 .first-paragraph {
@@ -42,8 +44,8 @@ nav {
   justify-content: center;
   gap: 13px;
   align-items: center;
-  padding: 0;
   padding-top: 10px;
+  margin-top: 0;
 }
 
 .down-button {
@@ -53,9 +55,10 @@ nav {
   padding-bottom: 10px;
 }
 
-.Domain {
+.domain {
   text-align: center;
   color: #172b4d;
+  width: 100%;
 }
 
 .little-line {
@@ -403,4 +406,169 @@ main {
   align-items: center;
   padding: 0;
   padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+
+  .desktop-introduction .desktop-green-h1 {
+    display: none;
+  }
+
+  .main-section {
+    background-image: url(desktop-images/main.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    justify-content: center;
+    width: 110vh;
+  }
+
+  .social-media {
+    margin-top: 6rem;
+  }
+
+  .top-nav {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+    width: 10%;
+    justify-content: center;
+  }
+
+  .my-recent-works {
+    text-align: center;
+    float: right;
+    width: 60%;
+    margin-bottom: 2rem;
+  }
+
+  .break {
+    display: none;
+  }
+
+  .d-first-paragraph {
+    line-height: 50px;
+  }
+
+  .down-button {
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+
+  nav .hamburgers {
+    display: none;
+  }
+
+  .commence {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .first-paragraph {
+    height: 350px;
+    line-height: 32px;
+    width: 700px;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .little-line,
+  .input_full-name {
+    display: none;
+  }
+
+  .all-card-holders {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px 5px;
+    padding: auto 20px;
+    justify-content: center;
+    width: 110vh;
+  }
+
+  .all-square-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px 5px;
+  }
+
+  .domain {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .fill-in-name {
+    display: flex;
+    gap: 15px;
+  }
+
+  .data {
+    display: flex;
+  }
+
+  .me-section {
+    padding: auto 20px;
+    justify-content: center;
+    width: 110vh;
+  }
+
+  .paragraph {
+    margin: 0 10rem;
+  }
+
+  .last-square-card {
+    background-color: #ebf0ee;
+    margin: 30px;
+    padding: 16px 32px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+    place-items: center;
+    gap: 1px;
+  }
+
+  .comment {
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    margin-right: 1rem;
+    line-height: 52px;
+    height: 256px;
+    margin-top: 1rem;
+    width: 500px;
+  }
+
+  footer {
+    padding: 25px 20px;
+    width: 110vh;
+    justify-content: space-between;
+  }
+
+  .design {
+    display: none;
+  }
+
+  .r-sign {
+    display: none;
+  }
+
+  .l-design {
+    display: none;
+  }
 }
