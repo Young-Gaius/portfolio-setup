@@ -59,6 +59,7 @@ nav {
 .domain {
   text-align: center;
   color: #172b4d;
+
   /* width: 100%; */
 }
 
@@ -416,6 +417,7 @@ main {
 @media (min-width: 768px) {
   body {
     position: relative;
+
     /* margin: 0; */
   }
 
@@ -442,7 +444,7 @@ main {
     gap: 10px;
     text-align: center;
     margin: auto;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
     justify-content: center;
     color: #172b4d;
   }
@@ -455,7 +457,7 @@ main {
     display: flex;
     text-align: center;
     float: center;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
     justify-content: center;
     width: 100vh;
   }
@@ -587,7 +589,7 @@ main {
   .interaction-button:hover {
     background-color: #36b37f;
   }
-  
+
   .interaction-button:active {
     background: #008552;
     border-radius: 4px;
@@ -598,18 +600,17 @@ main {
     background-size: cover;
     position: absolute;
     margin-bottom: 10rem;
-
   }
 
   .bottom-center-design {
     background-image: url(desktop-images/bottom-center.svg) no-repeat;
     background-size: cover;
     position: absolute;
-width: 130.28px;
-height: 105.85px;
-left: 169px;
-top: 3299px;
-margin-top: 0%;
+    width: 130.28px;
+    height: 105.85px;
+    left: 169px;
+    top: 3299px;
+    margin-top: 0%;
   }
 
   .bottom-right-design {
@@ -637,5 +638,4 @@ margin-top: 0%;
   .email-account {
     display: none;
   }
-
 }
