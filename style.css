@@ -1,13 +1,17 @@
 body {
   margin: 0;
   font-family: 'inter', sans-serif;
+  padding: 0;
+
+  /* width: 100%; */
 }
 
 nav {
   display: flex;
   flex-direction: column;
   align-items: end;
-  padding: 15px;
+  padding: 10px;
+  top: 0;
 }
 
 .green-h1 {
@@ -17,6 +21,7 @@ nav {
 .main-section {
   background-image: url(images/background.svg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Introduction {
@@ -25,6 +30,10 @@ nav {
   font-size: 200%;
   line-height: 45px;
   color: #172b4d;
+  margin-bottom: 10px;
+  animation-name: allbuttons;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
 }
 
 .first-paragraph {
@@ -34,6 +43,9 @@ nav {
   font-weight: 500;
   color: #172b4d;
   padding: 0 8%;
+  animation-name: allbuttons;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
 }
 
 .social-media {
@@ -42,8 +54,11 @@ nav {
   justify-content: center;
   gap: 13px;
   align-items: center;
-  padding: 0;
   padding-top: 10px;
+  margin-top: 0;
+  animation-name: allbuttons;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
 }
 
 .down-button {
@@ -53,7 +68,7 @@ nav {
   padding-bottom: 10px;
 }
 
-.Domain {
+.domain {
   text-align: center;
   color: #172b4d;
 }
@@ -101,9 +116,11 @@ nav {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   height: 490px;
-  width: 327px;
+
+  /* width: 327px; */
   overflow: hidden;
   background-color: #ebf0ee;
+  margin: 8px;
 }
 
 .multi-post-stories {
@@ -175,6 +192,7 @@ h3 {
 }
 
 .green-button {
+  float: right;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -312,6 +330,13 @@ main {
   border-radius: 4px;
 }
 
+.input_full-name {
+  padding: 9px;
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
+  font-style: italic;
+}
+
 .input_msg {
   border-color: #60c095;
 }
@@ -367,6 +392,9 @@ main {
   justify-content: center;
   color: #36b37e;
   margin: 25px auto;
+  animation-name: allbuttons;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
 }
 
 .email-account {
@@ -390,9 +418,9 @@ main {
 
 .design {
   position: absolute;
-  width: 75px;
+  width: 60px;
   right: -5%;
-  bottom: -640%;
+  bottom: -643%;
 }
 
 .socials {
