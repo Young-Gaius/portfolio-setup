@@ -1,7 +1,8 @@
 body {
-   margin: 0; 
+  margin: 0;
   font-family: 'inter', sans-serif;
   padding: 0;
+
   /* width: 100%; */
 }
 
@@ -115,6 +116,7 @@ nav {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   height: 490px;
+
   /* width: 327px; */
   overflow: hidden;
   background-color: #ebf0ee;
@@ -163,16 +165,12 @@ h3 {
 
 .programing-languages ul {
   list-style-type: none;
- display: flex;
+  display: flex;
   gap: 16px;
   padding: 0;
   margin: 0;
   width: 100%;
   justify-content: space-between;
-}
-
-.programing-languages ul {
-  float: left;
 }
 
 .my-languages li {
@@ -434,4 +432,3 @@ main {
   padding: 0;
   padding-top: 10px;
 }
-
