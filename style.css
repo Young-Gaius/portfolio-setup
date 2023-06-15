@@ -487,12 +487,6 @@ main {
     margin: 20px 0 100px;
   }
 
-  .s-media {
-    padding: 0.1rem 0;
-    border-top: 1px solid #dfe1e6;
-    width: 100%;
-  }
-
   .top-nav {
     display: flex;
     list-style: none;
@@ -531,7 +525,7 @@ main {
   nav .hamburgers {
     display: none;
   }
-  
+
   .Introduction {
     padding-top: 0;
   }
@@ -555,15 +549,6 @@ main {
   .little-line,
   .input_full-name {
     display: none;
-  }
-
-  .all-card-holders {
-
-     /* display: flex;
-    flex-wrap: wrap;
-    margin: 0 3%;
-    justify-content: center;
-    column-gap: 2rem; */
   }
 
   .all-square-cards {
