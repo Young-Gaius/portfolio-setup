@@ -53,6 +53,7 @@ nav {
   justify-content: center;
   gap: 13px;
   align-items: center;
+  padding: 0;
   padding-top: 10px;
   margin-top: 0;
   animation-name: allbuttons;
@@ -216,7 +217,7 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
-  align-items: center;
+  padding: 4% 0;
 }
 
 .paragraph {
@@ -451,9 +452,25 @@ main {
   display: none;
 }
 
+.all-card-holders {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: auto;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
 @media (min-width: 768px) {
   .desktop-introduction .desktop-green-h1 {
     display: none;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .main-section {
@@ -462,12 +479,18 @@ main {
     background-position: center;
     background-clip: border-box;
     background-repeat: no-repeat;
-    padding: 60px 0;
+    padding: 200px 0;
     justify-content: center;
   }
 
   .social-media {
-    margin-top: 6rem;
+    margin: 20px 0 100px;
+  }
+
+  .s-media {
+    padding: 0.1rem 0;
+    border-top: 1px solid #dfe1e6;
+    width: 100%;
   }
 
   .top-nav {
@@ -508,17 +531,20 @@ main {
   nav .hamburgers {
     display: none;
   }
+  
+  .Introduction {
+    padding-top: 0;
+  }
 
   .commence {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    padding-top: 100px;
   }
 
   .first-paragraph {
-    height: 350px;
     line-height: 32px;
     width: 700px;
     align-items: center;
@@ -532,11 +558,12 @@ main {
   }
 
   .all-card-holders {
-    display: flex;
+
+     /* display: flex;
     flex-wrap: wrap;
     margin: 0 3%;
     justify-content: center;
-    column-gap: 2rem;
+    column-gap: 2rem; */
   }
 
   .all-square-cards {
@@ -576,6 +603,7 @@ main {
     padding: 0 10px;
     overflow: hidden;
     justify-content: space-evenly;
+    box-sizing: border-box;
   }
 
   .right-design-desktop {
@@ -661,18 +689,19 @@ main {
     top: 50px;
     right: 0;
     z-index: -1;
-    height: 350px;
+    width: 150px;
   }
 
   .left-design-design {
     position: absolute;
-    top: 50px;
+    top: 112px;
     z-index: -1;
+    width: 9%;
   }
 
   .bottom-center-design {
     position: absolute;
-    top: 250px;
+    top: 260px;
     left: 200px;
     z-index: -1;
   }
@@ -685,6 +714,14 @@ main {
   }
 
   footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socials {
+    margin-top: 4rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -707,7 +744,13 @@ main {
     display: none;
   }
 
-  .media {
+  .s-media {
     display: none;
+  }
+}
+
+@media (min-width: 1366px) {
+  .all-card-holders {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

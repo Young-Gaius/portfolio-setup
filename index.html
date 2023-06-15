@@ -11,20 +11,20 @@
 
 <body>
 
-        <header>
-            <nav>
-                <ul class="top-nav">
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-                <img src="images/burgers.svg" alt="Menu-bar" class="hamburgers">
-            </nav>
-        </header>
-        <main class="main-section">
+    <header>
+        <nav>
+            <ul class="top-nav">
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <img src="images/burgers.svg" alt="Menu-bar" class="hamburgers">
+        </nav>
+    </header>
+    <main class="main-section">
 
         <!-- <section> -->
-        <div class="commence">
+        <section class="commence">
             <h1 class="Introduction">
 
                 Hey there. <br class="break">
@@ -43,7 +43,7 @@
 
             </div>
 
-        </div>
+        </section>
         <ul class="social-media">
             <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
             <li><a href="#"><img src="images/linkedin.svg" alt="linkeldin"></a></li>
@@ -64,7 +64,7 @@
 
     <div class="little-line"></div>
 
-    <div class="all-card-holders">
+    <section class="all-card-holders">
         <article class="card-holder">
             <div class="card">
                 <div class="empty-box">
@@ -80,7 +80,7 @@
                             <li>HTML</li>
                         </ul>
                     </div>
-                    <button class="green-button">See project</button>
+                    <button class="green-button interaction-btn">See project</button>
                 </div>
         </article>
         <article class="card-holder">
@@ -98,7 +98,7 @@
                             <li>HTML</li>
                         </ul>
                     </div>
-                    <button class="green-button">See project</button>
+                    <button class="green-button interaction-btn">See project</button>
                 </div>
         </article>
         <article class="card-holder">
@@ -116,7 +116,7 @@
                             <li>HTML</li>
                         </ul>
                     </div>
-                    <button class="green-button">See project</button>
+                    <button class="green-button interaction-btn">See project</button>
                 </div>
         </article>
         <article class="card-holder">
@@ -134,7 +134,7 @@
                             <li>HTML</li>
                         </ul>
                     </div>
-                    <button class="green-button">See project</button>
+                    <button class="green-button interaction-btn">See project</button>
                 </div>
         </article>
 
@@ -153,7 +153,7 @@
                             <li>HTML</li>
                         </ul>
                     </div>
-                    <button class="green-button">See project</button>
+                    <button class="green-button interaction-btn">See project</button>
                 </div>
         </article>
         <article class="card-holder">
@@ -163,7 +163,7 @@
                 </div>
                 <div class="multi-post-stories">
                     <h3>Multi-Post Stories <br> Gain + Glory</h3>
-                    
+
                     <div class="programing-languages">
                         <ul>
                             <li>Ruby on Rails</li>
@@ -172,16 +172,17 @@
                             <li>HTML</li>
                         </ul>
                     </div>
-                    <button class="green-button">See project</button>
+                    <button class="green-button interaction-btn">See project</button>
                 </div>
         </article>
-    </div>
+    </section>
     <section>
-       
-        <div class="me-section">
-            <div class="empty--box"> 
-                <div class="right-design-desktop"><img src="desktop-images/right-image.svg" alt="right-design-desktop"></div>
-                <div class="myself">      
+
+        <section class="me-section">
+            <div class="empty--box">
+                <div class="right-design-desktop"><img src="desktop-images/right-image.svg" alt="right-design-desktop">
+                </div>
+                <div class="myself">
                     <div class="head">
                         <h2>About me</h2>
                     </div>
@@ -195,8 +196,9 @@
                     don’t hesitate to contact me.</p>
             </div>
             <div>
-                <button class="Get-my-resume">Get my resume</button>
-                <div class="left-design-desktop"><img src="desktop-images/left-image.svg" alt="left-design-desktop"></div>
+                <button class="Get-my-resume interaction-btn">Get my resume</button>
+                <div class="left-design-desktop"><img src="desktop-images/left-image.svg" alt="left-design-desktop">
+                </div>
             </div>
             <div class="l-design">
                 <img src="images-2/left.svg" alt="left design">
@@ -245,48 +247,49 @@
 
             </div>
 
-        </div>
+        </section>
     </section>
-    
-        <div class="data">
-            <div class="comment">
-                <p>I'm always interested in hearing about new projects, so if you'd like to chat please
-                    get
-                    in touch.</p>
-            </div>
-            <div class="input-section">
-                <form action="https://formspree.io/f/xqkovozr" method="POST" class="form">
 
-                    <div class="fill-in-name picture">
-                        <input class="input_name" type="text" placeholder="First name" name="name" maxlength="30"
-                            required />
-                        <input class="input_name" type="text" placeholder="Last name" name="name" maxlength="30"
-                            required />
-                    </div>
-                    <input class="input_full-name" type="text" placeholder="Full name" name="name" maxlength="30"
+    <section class="data">
+        <div class="comment">
+            <p>I'm always interested in hearing about new projects, so if you'd like to chat please
+                get
+                in touch.</p>
+        </div>
+        <div class="input-section">
+            <form action="https://formspree.io/f/xqkovozr" method="POST" class="form">
+
+                <div class="fill-in-name picture">
+                    <input class="input_name" type="text" placeholder="First name" name="name" maxlength="30"
                         required />
-                    <input class="input_email" type="email" placeholder="Email address" name="email" required />
-                    <textarea class="input_msg" placeholder="Hey I'd like to connect to..." name="message" rows="8"
-                        maxlength="500" required></textarea>
-                    <div class="Get-in-touch-button interaction-btn"><button class="interaction-button"
-                            type="submit">Get in touch</button>
-                    </div>
-            </div>
-            <div class="design"><img src="images-3/last-design.svg" alt="Design"></div>
-            <div class="decor">
+                    <input class="input_name" type="text" placeholder="Last name" name="name" maxlength="30" required />
+                </div>
+                <input class="input_full-name" type="text" placeholder="Full name" name="name" maxlength="30"
+                    required />
+                <input class="input_email" type="email" placeholder="Email address" name="email" required />
+                <textarea class="input_msg" placeholder="Hey I'd like to connect to..." name="message" rows="8"
+                    maxlength="500" required></textarea>
+                <div class="Get-in-touch-button interaction-btn"><button class="interaction-button" type="submit">Get in
+                        touch</button>
+                </div>
+            </form>
+        </div>
+        <div class="design"><img src="images-3/last-design.svg" alt="Design"></div>
+        <div class="decor">
 
-                    <img class="left-design-design" src="desktop-images/bottom-left.svg" alt="left-design-design">
+            <img class="left-design-design" src="desktop-images/bottom-left.svg" alt="left-design-design">
 
 
-                    <img  class="bottom-center-design" src="desktop-images/bottom-center.svg" alt="bottom-center-design">
+            <img class="bottom-center-design" src="desktop-images/bottom-center.svg" alt="bottom-center-design">
 
-                    <img class="bottom-right-design" src="desktop-images/bottom-right.svg" alt="bottom-right-design">
+            <img class="bottom-right-design" src="desktop-images/bottom-right.svg" alt="bottom-right-design">
 
         </div>
+
 
 
         <p class="email-account">youngehu8@gmail.com</p>
-        <ul class="socials media">
+        <ul class="socials">
             <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
             <li><a href="#"><img src="images/linkedin.svg" alt="linkedin"></a></li>
             <li><a href="#"><img src="images/medium.svg" alt="medium"></a></li>
@@ -294,18 +297,18 @@
             <li><a href="#"><img src="images/angellist.svg" alt="angellist"></a></li>
         </ul>
 
-        </form>
-        </div>
-        <footer>
-            <img class="s-media" src="desktop-images/social-media-icons.svg" alt="social-media">
-    </footer>
-    
-        
-       
-        </div>
-        <div class="line break"></div>
 
-    
+    </section>
+    <footer>
+        <img class="s-media" src="desktop-images/social-media-icons.svg" alt="social-media">
+    </footer>
+
+
+
+
+    <div class="line break"></div>
+
+
 
 </body>
 
