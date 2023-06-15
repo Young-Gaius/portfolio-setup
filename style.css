@@ -2,8 +2,6 @@ body {
   margin: 0;
   font-family: 'inter', sans-serif;
   padding: 0;
-
-  /* width: 100%; */
 }
 
 nav {
@@ -22,6 +20,7 @@ nav {
   background-image: url(images/background.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: -15px;
 }
 
 .Introduction {
@@ -95,11 +94,9 @@ nav {
 }
 
 .right-design {
-  position: absolute;
-  width: 65.87px;
-  height: 107.94px;
-  right: 0;
-  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -100px;
 }
 
 .myself {
@@ -116,8 +113,6 @@ nav {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   height: 490px;
-
-  /* width: 327px; */
   overflow: hidden;
   background-color: #ebf0ee;
   margin: 8px;
@@ -129,7 +124,6 @@ nav {
   justify-content: center;
   align-items: center;
   height: 55%;
-  /* place-items: center; */
   gap: 20px;
   padding: 0 0.5em;
   border-radius: 14px;
@@ -153,8 +147,7 @@ h3 {
   font-size: 26px;
   line-height: 32px;
   color: #3a4a42;
-  width: 60%;
-  line-break: auto;
+  text-align: center;
 }
 
 .programing-languages {
@@ -186,7 +179,7 @@ h3 {
   font-weight: 600;
   border-radius: 4px;
   background-color: #ebf0ee;
-  padding: 6px 8px;
+  padding: 6px;
   color: #3a4a42;
   font-size: 13px;
   line-height: 16px;
@@ -270,6 +263,14 @@ h2 {
   padding: 1rem;
   border-radius: 50%;
   background-color: white;
+}
+
+.l-design {
+  margin-top: -50px;
+}
+
+.about-container {
+  margin-bottom: 40px;
 }
 
 .square-card {
@@ -419,10 +420,9 @@ main {
 }
 
 .design {
-  position: absolute;
-  width: 60px;
-  right: -5%;
-  bottom: -643%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -100px;
 }
 
 .socials {
