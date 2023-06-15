@@ -443,19 +443,22 @@ main {
   display: none;
 }
 
+.right-design-desktop {
+  display: none;
+}
+
+.left-design-desktop {
+  display: none;
+}
+
 @media (min-width: 768px) {
-  body {
-   
-
-  }
-
   .desktop-introduction .desktop-green-h1 {
     display: none;
   }
 
   .main-section {
     background-image: url(desktop-images/main.svg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-clip: border-box;
     background-repeat: no-repeat;
@@ -536,33 +539,22 @@ main {
     column-gap: 2rem;
   }
 
- .card-holder{
-  /* width: 25%; */
- }
   .all-square-cards {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
     width: 100%;
     height: auto;
-    /* display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 5px 5px;
-    padding-top: 50px; */
   }
-.multi-post-stories h3 {
-/* display: none; */
-}
- .desktop-heading{
-  background-color: red;
- }
+
   .domain {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .my-languages{
+
+  .my-languages {
     margin-bottom: 0;
   }
 
@@ -581,8 +573,15 @@ main {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding: 0 10px ;
-    justify-content: space-between;
+    padding: 0 10px;
+    overflow: hidden;
+    justify-content: space-evenly;
+  }
+
+  .right-design-desktop {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -390px;
   }
 
   .me-section {
@@ -590,13 +589,19 @@ main {
     justify-content: center;
   }
 
+  .left-design-desktop {
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .paragraph {
     margin: 0 10rem;
   }
-  .square-card{
-  width: 30%;
-  
-}
+
+  .square-card {
+    width: 30%;
+  }
+
   .last-square-card {
     background-color: #ebf0ee;
     margin: 30px;
@@ -625,7 +630,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 48%;   
+    width: 48%;
     max-width: 500px;
   }
 
@@ -651,39 +656,39 @@ main {
     border-radius: 4px;
   }
 
-  .left-design-design {
-    background-image: url(desktop-images/bottom-left.svg) no-repeat;
-    background-size: cover;
+  .bottom-right-design {
     position: absolute;
-    margin-bottom: 10rem;
+    top: 50px;
+    right: 0;
+    z-index: -1;
+    height: 350px;
+  }
+
+  .left-design-design {
+    position: absolute;
+    top: 50px;
+    z-index: -1;
   }
 
   .bottom-center-design {
-    background-image: url(desktop-images/bottom-center.svg) no-repeat;
-    background-size: cover;
     position: absolute;
-    width: 130.28px;
-    height: 105.85px;
-    left: 169px;
-    top: 3299px;
-    margin-top: 0%;
-  }
-
-  .bottom-right-design {
-    background-image: url(desktop-images/bottom-right.svg) no-repeat;
-    background-size: cover;
-    position: absolute;
-    left: 110.43%;
-    right: -20.72%;
-    top: 90.29%;
-    bottom: 0.21%;
+    top: 250px;
+    left: 200px;
+    z-index: -1;
   }
 
   .decor {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    right: 100px;
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .design {
@@ -699,6 +704,10 @@ main {
   }
 
   .email-account {
+    display: none;
+  }
+
+  .media {
     display: none;
   }
 }
