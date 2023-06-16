@@ -30,9 +30,6 @@ nav {
   line-height: 45px;
   color: #172b4d;
   margin-bottom: 10px;
-  animation-name: allbuttons;
-  animation-duration: 0.6s;
-  animation-timing-function: ease-in-out;
 }
 
 .first-paragraph {
@@ -42,9 +39,6 @@ nav {
   font-weight: 500;
   color: #172b4d;
   padding: 0 8%;
-  animation-name: allbuttons;
-  animation-duration: 0.6s;
-  animation-timing-function: ease-in-out;
 }
 
 .social-media {
@@ -57,7 +51,7 @@ nav {
   padding-top: 10px;
   margin-top: 0;
   animation-name: allbuttons;
-  animation-duration: 0.6s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out;
 }
 
@@ -370,7 +364,7 @@ main {
   height: 48px;
   font-size: medium;
   margin-bottom: 36px;
-  transition-property: all;
+  transition: all 0.5s ease-out;
 }
 
 .interaction-button:hover {
@@ -434,6 +428,9 @@ main {
   align-items: center;
   padding: 0;
   padding-top: 10px;
+  animation-name: allbuttons;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .top-nav {
