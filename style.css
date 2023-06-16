@@ -466,6 +466,17 @@ main {
     display: none;
   }
 
+  .color {
+    transition: all 0s ease-out;
+  }
+
+  .color:hover {
+    color: #008552;
+    cursor: pointer;
+    border-bottom: 3px solid #008552;
+    ;
+  }
+  
   header {
     position: absolute;
     top: 0;
