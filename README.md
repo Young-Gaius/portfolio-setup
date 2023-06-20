@@ -1,165 +1,192 @@
 # portfolio-setup# 
 <a name="readme-top"></a>
 
-<div align="center">
-  <br/>
 
-  <h3><b>portfolio-setup</b></h3>
-
-</div>
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🛠️ Built With](#built-with)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [🚀 Live Demo](#live-demo)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
+- [⭐ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [portfolio-setup] <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**[portfolio-setup]** This project is a portfolio-setup repository. No complex coding is required for this exercise. The goal is to master all of the tools and best practices learned in previous steps. They will be used in all Microverse projects and most likely in future jobs as well, so it is important to know!.
+# 📖 Portfolio <a name="about-project"></a>
 
-## 🛠 Built With <a name="built-with"></a>
+- This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML and CSS.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
 
-### Tech Stack <a name="tech-stack"></a>
+## 🛠️ Built With <a name="built-with"></a>
 
-<details>
-  <summary>front end</summary>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-  </ul>
-</details>
-
-
-### Key Features <a name="key-features"></a>
-- added index.html 
-- added style.css
-
-- **[Display portfolio-project]**
+- HTML
+- CSS
+- linter
+- Github Pages
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Key Features
 
+- Deploy the project using GitHub Pages😊👌
+- Responsive design💯
+- User friendly .🚀
+- Following the Figma design 😃👍
+
+
+## 🚀 Live Demo
+
+- You can see the live demo of the portfolio [Here](https://young-gaius.github.io/portfolio-setup/)😊⤵️
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need the following tools:
-- Browser
-- IDE(e.g.: Vscode,...)
-- Terminal
+In order to run this project you need:
+
+
+Example command:
+
+```sh
+1.use a browser
+2.use cable internet
+```
+ 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-https://github.com/Young-Gaius/portfolio-setup.git
+
+Example commands:
+
+```sh
+  
+  git clone git@github.com:Young-Gaius/portfolio-setup.git
+  cd portfolio-setup
+
+
+```
+
 
 ### Install
 
-- Install this project with:
+Install this project with:
+
+
+Example command:
 
 ```sh
-  cd mv_portfolio-setup
-
-
-  npm install or npm i
+  npm install
 ```
+
 
 ### Usage
 
 To run the project, execute the following command:
 
+
+Example command:
+
 ```sh
-  Open the live server or Open the index.html file in your browser
+- Open the index with live server.
+- Or if you don't have a live server extension open the index in the browser by clicking on the file .
 ```
 
 
-### Run Linters tests
+### Run tests
 
-To run tests, run the following command:
+To run tests for the linter, run the following command:
+
+
+Example command:
 
 ```sh
-  npx eslint . 
-  
-  npx stylelint "**/*.{css,scss}" --fix
+npx hint .
+npx eslint .
 ```
-  
+
+
+### Deployment
+
+I deployed this project using:
+
+- Github Pages
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://young-gaius.github.io/portfolio-setup/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Young**
 
-- GitHub: [@githubhandle](https://github.com/Young-Gaius)
-- Twitter: [@twitterhandle](https://twitter.com/EhuYoung)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/young-gaius-205624268/)
-
-👤
+- GitHub: [Young](https://github.com/Young-Gaius)
+- Twitter: [Young](https://twitter.com/EhuYoung)
+- LinkedIn: [Young](https://www.linkedin.com/in/young-gaius-205624268/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] a project
-- [ ] a navbar
-- [ ] a  form
 
-
+- [ ] Solve the accessibility issues.
+- [ ] Add more styling💯.
+- [ ] Add Popup window for the deatils of each project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [Isuues Pages](https://github.com/Young-Gaius/portfolio-setup/issues)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ⭐️ Show your support <a name="support"></a>
+<!-- SUPPORT -->
 
-If you like this project please give me a star
+## ⭐ Show your support <a name="support"></a>
+
+
+If you like this project kindly give it a star⭐.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse team and the code reviewers
+
+I would like to thank Ekpenisi E Raphael for the immense support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Young-Gaius/portfolio-setup/blob/Deployment/LICENSE) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
