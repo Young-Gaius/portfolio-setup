@@ -21,6 +21,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [🚀 Live Demo](#live-demo)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -109,7 +110,11 @@ To run tests, run the following command:
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](https://young-gaius.github.io/portfolio-setup/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 👥 Author <a name="authors"></a>
 
 👤 **Young**
