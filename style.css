@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'inter', sans-serif;
+  font-family: inter, sans-serif;
   padding: 0;
 }
 
@@ -17,13 +17,13 @@ nav {
 }
 
 .main-section {
-  background-image: url(images/background.svg);
+  background-image: url("images/background.svg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -15px;
 }
 
-.Introduction {
+.introduction {
   text-align: center;
   padding-top: 20%;
   font-size: 200%;
@@ -71,14 +71,11 @@ nav {
   content: '';
   width: 50px;
   height: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  margin: 20px auto 50px;
   background: #36b37e;
   border-radius: 21px;
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .empty-box {
@@ -136,7 +133,7 @@ h3 {
 }
 
 .multi-post-stories h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
@@ -183,7 +180,7 @@ h3 {
 
 .green-button {
   float: right;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -223,8 +220,8 @@ h2 {
   color: #42526e;
 }
 
-.Get-my-resume {
-  font-family: 'Inter', sans-serif;
+.get-my-resume {
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -320,37 +317,37 @@ main {
   gap: 15px;
 }
 
-.input_name,
-.input_email,
-.input_msg {
+.input-name,
+.input-email,
+.input-msg {
   padding: 9px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
 }
 
-.input_full-name {
+.input-full-name {
   padding: 9px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
   font-style: italic;
 }
 
-.input_msg {
+.input-msg {
   border-color: #60c095;
 }
 
-.input_msg::placeholder {
+.input-msg::placeholder {
   color: #172b4d;
   font-weight: 400;
   font-size: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
 }
 
-.input_name::placeholder {
+.input-name::placeholder {
   font-style: italic;
 }
 
-.input_email::placeholder {
+.input-email::placeholder {
   font-style: italic;
 }
 
@@ -389,7 +386,7 @@ main {
   }
 }
 
-.Get-in-touch-button {
+.get-in-touch-button {
   text-align: center;
   background: #36b37f;
   border-radius: 4px;
@@ -414,14 +411,11 @@ main {
   content: '';
   width: 120px;
   height: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 24px;
+  margin: 24px auto 10px;
   background: #0d151e;
   border-radius: 24px;
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
 }
 
 .design {
@@ -468,9 +462,49 @@ main {
   padding: 10px;
 }
 
-@media (min-width: 768px) {
+/* popup styling */
+
+.popup-menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hide-popup {
+  display: none;
+}
+
+.popup-nav {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.close {
+  padding-top: 20px;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.tag {
+  color: #606c5d;
+  text-decoration: none;
+}
+
+@media (width >= 768px) {
   .desktop-introduction .desktop-green-h1 {
     display: none;
+  }
+
+  .popup-menu {
+    display: none !important;
   }
 
   .color {
@@ -491,7 +525,7 @@ main {
   }
 
   .main-section {
-    background-image: url(desktop-images/main.svg);
+    background-image: url("desktop-images/main.svg");
     background-size: cover;
     background-position: center;
     background-clip: border-box;
@@ -543,7 +577,7 @@ main {
     display: none;
   }
 
-  .Introduction {
+  .introduction {
     padding-top: 0;
   }
 
@@ -564,7 +598,7 @@ main {
   }
 
   .little-line,
-  .input_full-name {
+  .input-full-name {
     display: none;
   }
 
@@ -594,7 +628,7 @@ main {
     justify-content: space-between;
   }
 
-  .input_name {
+  .input-name {
     width: 40%;
   }
 
@@ -664,7 +698,7 @@ main {
     max-width: 500px;
   }
 
-  .Get-in-touch-button {
+  .get-in-touch-button {
     text-align: center;
     background: #36b37f;
     border-radius: 4px;
@@ -751,7 +785,7 @@ main {
   }
 }
 
-@media (min-width: 1366px) {
+@media (width >= 1366px) {
   .all-card-holders {
     grid-template-columns: repeat(3, 1fr);
   }

@@ -14,18 +14,50 @@
     <header>
         <nav>
             <ul class="top-nav">
-                <li class="color">Portfolio</li>
-                <li class="color" >About</li>
-                <li class="color">Contact</li>
+                <li class="color">
+                  <a class="tag" href="#portfolio">
+                    Portfolio
+                  </a>
+                </li>
+                <li class="color" >
+                  <a class="tag" href="#about-me">
+                    About
+                  </a>
+                </li>
+                <li class="color">
+                  <a class="tag" href="#contact-us">
+                    Contact
+                  </a>
+                </li>
             </ul>
             <img src="images/burgers.svg" alt="Menu-bar" class="hamburgers">
         </nav>
+        <div class="popup-menu hide-popup">
+          <p class="close">X</p>
+          <ul class="popup-nav">
+            <li class="popup-link">
+              <a class="tag" href="#portfolio">
+                Portfolio
+              </a>
+            </li>
+            <li class="popup-link" >
+              <a class="tag" href="#about-me">
+                About
+              </a>
+            </li>
+            <li class="popup-link">
+              <a class="tag" href="#contact-us">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
     </header>
     <main class="main-section">
 
         <!-- <section> -->
         <section class="commence">
-            <h1 class="Introduction">
+            <h1 class="introduction">
 
                 Hey there. <br class="break">
                 I'm Young. <br>
@@ -57,7 +89,7 @@
         <!-- </section> -->
     </main>
 
-    <div class="my-recent-works">
+    <div id="portfolio" class="my-recent-works">
         <h1 class="domain">My Recent <br class="break"> Works</h1>
     </div>
 
@@ -178,7 +210,7 @@
     </section>
     <section>
 
-        <section class="me-section">
+        <section id="about-me" class="me-section">
             <div class="empty--box">
                 <div class="right-design-desktop"><img src="desktop-images/right-image.svg" alt="right-design-desktop">
                 </div>
@@ -196,7 +228,7 @@
                     don’t hesitate to contact me.</p>
             </div>
             <div>
-                <button class="Get-my-resume interaction-btn">Get my resume</button>
+                <button class="get-my-resume interaction-btn">Get my resume</button>
                 <div class="left-design-desktop"><img src="desktop-images/left-image.svg" alt="left-design-desktop">
                 </div>
             </div>
@@ -250,7 +282,7 @@
         </section>
     </section>
 
-    <section class="data">
+    <section id="contact-us" class="data">
         <div class="comment">
             <p>I'm always interested in hearing about new projects, so if you'd like to chat please
                 get
@@ -260,16 +292,16 @@
             <form action="https://formspree.io/f/xqkovozr" method="POST" class="form">
 
                 <div class="fill-in-name picture">
-                    <input class="input_name" type="text" placeholder="First name" name="name" maxlength="30"
+                    <input class="input-name" type="text" placeholder="First name" name="name" maxlength="30"
                         required />
-                    <input class="input_name" type="text" placeholder="Last name" name="name" maxlength="30" required />
+                    <input class="input-name" type="text" placeholder="Last name" name="name" maxlength="30" required />
                 </div>
-                <input class="input_full-name" type="text" placeholder="Full name" name="name" maxlength="30"
+                <input class="input-full-name" type="text" placeholder="Full name" name="name" maxlength="30"
                     required />
-                <input class="input_email" type="email" placeholder="Email address" name="email" required />
-                <textarea class="input_msg" placeholder="Hey I'd like to connect to..." name="message" rows="8"
+                <input class="input-email" type="email" placeholder="Email address" name="email" required />
+                <textarea class="input-msg" placeholder="Hey I'd like to connect to..." name="message" rows="8"
                     maxlength="500" required></textarea>
-                <div class="Get-in-touch-button interaction-btn"><button class="interaction-button" type="submit">Get in
+                <div class="get-in-touch-button interaction-btn"><button class="interaction-button" type="submit">Get in
                         touch</button>
                 </div>
             </form>
@@ -303,13 +335,9 @@
         <img class="s-media" src="desktop-images/social-media-icons.svg" alt="social-media">
     </footer>
 
-
-
-
     <div class="line break"></div>
 
-
-
+<script src="index.js"></script>
 </body>
 
 </html>
