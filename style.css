@@ -462,7 +462,7 @@ main {
   padding: 10px;
 }
 
-/* popup styling */
+/* menu styling */
 
 .popup-menu {
   position: fixed;
@@ -496,6 +496,73 @@ main {
 .tag {
   color: #606c5d;
   text-decoration: none;
+}
+
+/* popup */
+.popup-card-holder {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: #C1C7D090;
+  align-items: center;
+  justify-content: center;
+  padding: 4% 0;
+}
+
+.popup-card {
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  height: 90%;
+  overflow: scroll;
+  background-color: white;
+  margin: 8px;
+}
+
+.popup-img-box {
+  width: 100%;
+  min-height: 150px;
+  height: fit-content;
+  background: #ebf0ee;
+  border-radius: 8px 8px 0 0;
+}
+
+.popup-img-box > img {
+  width: 100%;
+}
+
+.popup-body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0 0.5em;
+  border-radius: 14px;
+  background-color: #fff;
+}
+
+.popup-body h3 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  color: #3a4a42;
+  text-align: left;
+}
+
+.popup-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.popup-close {
+  position: absolute;
+  text-align: right;
+  padding-right: 40px;
+  cursor: pointer;
+  right: 0;
 }
 
 @media (width >= 768px) {
