@@ -36,8 +36,8 @@ const card = [
      soluta mollitia!`,
     technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
     button: "See Project",
-    live_version: '',
-    source: ''
+    live_version: 'https://young-gaius.github.io/portfolio-setup/',
+    source: 'https://github.com/Young-Gaius/portfolio-setup'
   },
   {
   id: 1,
@@ -55,6 +55,8 @@ const card = [
    soluta mollitia!`,
   technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
   button: "See Project"
+  live_version: 'https://young-gaius.github.io/portfolio-setup/',
+  source: 'https://github.com/Young-Gaius/portfolio-setup'
 },
 {
   id: 2,
@@ -72,8 +74,8 @@ const card = [
    soluta mollitia!`,
   technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
   button: "See Project",
-  live_version: '',
-  source: ''
+  live_version: 'https://young-gaius.github.io/portfolio-setup/',
+  source: 'https://github.com/Young-Gaius/portfolio-setup'
 },
 {
   id: 3,
@@ -91,8 +93,8 @@ const card = [
    soluta mollitia!`,
   technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
   button: "See Project",
-  live_version: '',
-  source: ''
+  live_version: 'https://young-gaius.github.io/portfolio-setup/',
+  source: 'https://github.com/Young-Gaius/portfolio-setup'
 },
 {
   id: 4,
@@ -110,8 +112,8 @@ const card = [
    soluta mollitia!`,
   technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
   button: "See Project",
-  live_version: '',
-  source: ''
+  live_version: 'https://young-gaius.github.io/portfolio-setup/',
+  source: 'https://github.com/Young-Gaius/portfolio-setup'
 },
 {
   id: 5,
@@ -175,11 +177,17 @@ const showPopup = (id) => {
         <p onclick="hidePopup()" class="popup-close">X</p>
         <button onclick="hidePopup()" class="closeButton"><img src="images-3/closeBtn.svg"></button>
         <div class="popup-img-box">
-        <img src="${card[id].image}" />
+          <img src="${card[id].image}" />
         </div>
         <div class="popup-body">
+          <div class='popup-head' >
             <h3>${card[id].popupName}</h3>
-            <div class="programing-languages">
+            <div class='popup-links-desktop'>
+              <a href="${card[id].live_version}" class="green-button interaction-btn">see live</a>
+              <a href="${card[id].source}"  class="green-button interaction-btn">see source</a>
+            </div>
+          </div>
+            <div class="popup-programing-languages">
                 <ul>
                     <li>${card[id].technology[0]}</li>
                     <li>${card[id].technology[1]}</li>
@@ -188,7 +196,7 @@ const showPopup = (id) => {
                 </ul>
             </div>
             <p>${card[id].description}</p>
-            <div class='popup-links'>
+            <div class='popup-links-mobile'>
               <a href="${card[id].live_version}" class="green-button interaction-btn">see live</a>
               <a href="${card[id].source}"  class="green-button interaction-btn">see source</a>
             </div>
