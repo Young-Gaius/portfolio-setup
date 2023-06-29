@@ -25,6 +25,7 @@ const card = [
     title1: "Multi-Post Stories",
     image: "images-3/mobile.svg",
     title2: "Gain + Glory",
+    popupName: 'Keeping track of hundreds of components',
     description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
      Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
      molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
@@ -76,7 +77,7 @@ const card = [
 },
 {
   id: 3,
-  title1: "Multi-Post Stories",
+  title1: "Multi-Post Ss",
   image: "images-3/mobile.svg",
   title2: "Gain + Glory",
   popupName: 'Keeping track of hundreds of components',
@@ -128,8 +129,8 @@ const card = [
    soluta mollitia!`,
   technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
   button: "See Project",
-  live_version: '',
-  source: ''
+  live_version: 'https://young-gaius.github.io/portfolio-setup/',
+  source: 'https://github.com/Young-Gaius/portfolio-setup'
 },
 
 
@@ -172,6 +173,7 @@ const showPopup = (id) => {
   <article class="popup-card-holder">
       <div class="popup-card">
         <p onclick="hidePopup()" class="popup-close">X</p>
+        <button onclick="hidePopup()" class="closeButton"><img src="images-3/closeBtn.svg"></button>
         <div class="popup-img-box">
         <img src="${card[id].image}" />
         </div>
@@ -187,8 +189,8 @@ const showPopup = (id) => {
             </div>
             <p>${card[id].description}</p>
             <div class='popup-links'>
-              <button class="green-button interaction-btn">see live</button>
-              <button  class="green-button interaction-btn">see source</button>
+              <a href="${card[id].live_version}" class="green-button interaction-btn">see live</a>
+              <a href="${card[id].source}"  class="green-button interaction-btn">see source</a>
             </div>
         </div>
   </article>  

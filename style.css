@@ -499,6 +499,10 @@ main {
 }
 
 /* popup */
+
+.closeButton {
+  display: none;
+}
 .popup-card-holder {
   display: flex;
   width: 100vw;
@@ -563,6 +567,8 @@ main {
   padding-right: 40px;
   cursor: pointer;
   right: 0;
+  color: white;
+  font-size: 30px;
 }
 
 @media (width >= 768px) {
@@ -570,8 +576,22 @@ main {
     display: none;
   }
 
+  .popup-close {
+    display: none;
+  }
+
   .popup-menu {
     display: none !important;
+  }
+
+  .closeButton {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border: none;
+    background: transparent;
+    padding: 10px;
   }
 
   .color {
