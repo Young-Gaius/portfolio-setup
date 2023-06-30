@@ -503,13 +503,14 @@ main {
 .closeButton {
   display: none;
 }
+
 .popup-card-holder {
   display: flex;
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
-  background-color: #C1C7D090;
+  background-color: #c1c7d090;
   align-items: center;
   justify-content: center;
 }
@@ -913,7 +914,7 @@ main {
     width: 100%;
     justify-content: space-evenly;
   }
-  
+
   .popup-links-mobile {
     display: none;
   }

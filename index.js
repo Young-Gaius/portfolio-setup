@@ -22,9 +22,9 @@ popupLinks.forEach((popupLink) => {
 const card = [
   {
     id: 0,
-    title1: "Multi-Post Stories",
-    image: "images-3/mobile.svg",
-    title2: "Gain + Glory",
+    title1: 'Multi-Post Stories',
+    image: 'images-3/mobile.svg',
+    title2: 'Gain + Glory',
     popupName: 'Keeping track of hundreds of components',
     description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
      Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
@@ -34,18 +34,18 @@ const card = [
      Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
      molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
      soluta mollitia!`,
-    technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
-    button: "See Project",
+    technology: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+    button: 'See Project',
     live_version: 'https://young-gaius.github.io/portfolio-setup/',
-    source: 'https://github.com/Young-Gaius/portfolio-setup'
+    source: 'https://github.com/Young-Gaius/portfolio-setup',
   },
   {
-  id: 1,
-  title1: "Multi-Post Stories",
-  image: "images-3/mobile.svg",
-  title2: "Gain + Glory",
-  popupName: 'Keeping track of hundreds of components',
-  description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    id: 1,
+    title1: 'Multi-Post Stories',
+    image: 'images-3/mobile.svg',
+    title2: 'Gain + Glory',
+    popupName: 'Keeping track of hundreds of components',
+    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
    Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
    molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
    soluta mollitia!
@@ -53,18 +53,18 @@ const card = [
    Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
    molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
    soluta mollitia!`,
-  technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
-  button: "See Project"
-  live_version: 'https://young-gaius.github.io/portfolio-setup/',
-  source: 'https://github.com/Young-Gaius/portfolio-setup'
-},
-{
-  id: 2,
-  title1: "Multi-Post Stories",
-  image: "images-3/mobile.svg",
-  title2: "Gain + Glory",
-  popupName: 'Keeping track of hundreds of components',
-  description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    technology: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+    button: 'See Project',
+    live_version: 'https://young-gaius.github.io/portfolio-setup/',
+    source: 'https://github.com/Young-Gaius/portfolio-setup',
+  },
+  {
+    id: 2,
+    title1: 'Multi-Post Stories',
+    image: 'images-3/mobile.svg',
+    title2: 'Gain + Glory',
+    popupName: 'Keeping track of hundreds of components',
+    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
    Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
    molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
    soluta mollitia!
@@ -72,18 +72,18 @@ const card = [
    Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
    molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
    soluta mollitia!`,
-  technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
-  button: "See Project",
-  live_version: 'https://young-gaius.github.io/portfolio-setup/',
-  source: 'https://github.com/Young-Gaius/portfolio-setup'
-},
-{
-  id: 3,
-  title1: "Multi-Post Ss",
-  image: "images-3/mobile.svg",
-  title2: "Gain + Glory",
-  popupName: 'Keeping track of hundreds of components',
-  description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    technology: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+    button: 'See Project',
+    live_version: 'https://young-gaius.github.io/portfolio-setup/',
+    source: 'https://github.com/Young-Gaius/portfolio-setup',
+  },
+  {
+    id: 3,
+    title1: 'Multi-Post Ss',
+    image: 'images-3/mobile.svg',
+    title2: 'Gain + Glory',
+    popupName: 'Keeping track of hundreds of components',
+    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
    Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
    molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
    soluta mollitia!
@@ -91,18 +91,18 @@ const card = [
    Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
    molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
    soluta mollitia!`,
-  technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
-  button: "See Project",
-  live_version: 'https://young-gaius.github.io/portfolio-setup/',
-  source: 'https://github.com/Young-Gaius/portfolio-setup'
-},
-{
-  id: 4,
-  title1: "Multi-Post Stories",
-  image: "images-3/mobile.svg",
-  title2: "Gain + Glory",
-  popupName: 'Keeping track of hundreds of components',
-  description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    technology: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+    button: 'See Project',
+    live_version: 'https://young-gaius.github.io/portfolio-setup/',
+    source: 'https://github.com/Young-Gaius/portfolio-setup',
+  },
+  {
+    id: 4,
+    title1: 'Multi-Post Stories',
+    image: 'images-3/mobile.svg',
+    title2: 'Gain + Glory',
+    popupName: 'Keeping track of hundreds of components',
+    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
    Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
    molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
    soluta mollitia!
@@ -110,18 +110,18 @@ const card = [
    Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
    molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
    soluta mollitia!`,
-  technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
-  button: "See Project",
-  live_version: 'https://young-gaius.github.io/portfolio-setup/',
-  source: 'https://github.com/Young-Gaius/portfolio-setup'
-},
-{
-  id: 5,
-  title1: "Multi-Post Stories",
-  image: "images-3/mobile.svg",
-  title2: "Gain + Glory",
-  popupName: 'Keeping track of hundreds of components',
-  description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    technology: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+    button: 'See Project',
+    live_version: 'https://young-gaius.github.io/portfolio-setup/',
+    source: 'https://github.com/Young-Gaius/portfolio-setup',
+  },
+  {
+    id: 5,
+    title1: 'Multi-Post Stories',
+    image: 'images-3/mobile.svg',
+    title2: 'Gain + Glory',
+    popupName: 'Keeping track of hundreds of components',
+    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
    Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
    molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
    soluta mollitia!
@@ -129,21 +129,20 @@ const card = [
    Fugit omnis assumenda harum accusantium nisi at expedita illo vitae. Ducimus 
    molestiae doloribus accusantium iste perspiciatis porro voluptatem qui, quasi 
    soluta mollitia!`,
-  technology: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
-  button: "See Project",
-  live_version: 'https://young-gaius.github.io/portfolio-setup/',
-  source: 'https://github.com/Young-Gaius/portfolio-setup'
-},
+    technology: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+    button: 'See Project',
+    live_version: 'https://young-gaius.github.io/portfolio-setup/',
+    source: 'https://github.com/Young-Gaius/portfolio-setup',
+  },
 
-
-]
+];
 const cardSection = document.querySelector('.all-card-holders');
 const popup = document.querySelector('.popup');
 
 function generateCardSection() {
-  card.forEach(card => {
-    cardSection.innerHTML +=
-      `
+  card.forEach((card) => {
+    cardSection.innerHTML
+      += `
     <article class="card-holder">
             <div class="card">
                 <div class="empty-box">
@@ -158,23 +157,24 @@ function generateCardSection() {
                             <li>${card.technology[3]}</li>
                         </ul>
                     </div>
-                    <button onclick="showPopup(${card.id})" class="green-button interaction-btn">${card.button}</button>
+                    <button onclick="${showPopup(card.id)}" class="green-button interaction-btn">${card.button}</button>
                 </div>
         </article>
         
-    `
+    `;
     // <div><img src="${card.image}"</div>
-  }
-  )
+  });
 }
 
-generateCardSection()
+const hidePopup = () => {
+  popup.innerHTML = '';
+};
 
 const showPopup = (id) => {
   popup.innerHTML = `
   <article class="popup-card-holder">
       <div class="popup-card">
-        <p onclick="hidePopup()" class="popup-close">X</p>
+        <p onclick= ${hidePopup()} class="popup-close">X</p>
         <button onclick="hidePopup()" class="closeButton"><img src="images-3/closeBtn.svg"></button>
         <div class="popup-img-box">
           <img src="${card[id].image}" />
@@ -202,10 +202,7 @@ const showPopup = (id) => {
             </div>
         </div>
   </article>  
-`
-}
+`;
+};
 
-
-const hidePopup = () => {
-  popup.innerHTML = ``
-}
+generateCardSection();
