@@ -204,8 +204,3 @@ const showPopup = (id) => {
   </article>  
 `
 }
-
-
-const hidePopup = () => {
-  popup.innerHTML = ``
-}
