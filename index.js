@@ -139,33 +139,6 @@ const card = [
 const cardSection = document.querySelector('.all-card-holders');
 const popup = document.querySelector('.popup');
 
-function generateCardSection() {
-  card.forEach((card) => {
-    cardSection.innerHTML
-      += `
-    <article class="card-holder">
-            <div class="card">
-                <div class="empty-box">
-                </div>
-                <div class="multi-post-stories">
-                    <h3>${card.title1} <br> ${card.title2}</h3>
-                    <div class="programing-languages">
-                        <ul>
-                            <li>${card.technology[0]}</li>
-                            <li>${card.technology[1]}</li>
-                            <li>${card.technology[2]}</li>
-                            <li>${card.technology[3]}</li>
-                        </ul>
-                    </div>
-                    <button onclick="${showPopup(card.id)}" class="green-button interaction-btn">${card.button}</button>
-                </div>
-        </article>
-        
-    `;
-    // <div><img src="${card.image}"</div>
-  });
-}
-
 const hidePopup = () => {
   popup.innerHTML = '';
 };
@@ -204,5 +177,32 @@ const showPopup = (id) => {
   </article>  
 `;
 };
+
+function generateCardSection() {
+  card.forEach((card) => {
+    cardSection.innerHTML
+      += `
+    <article class="card-holder">
+            <div class="card">
+                <div class="empty-box">
+                </div>
+                <div class="multi-post-stories">
+                    <h3>${card.title1} <br> ${card.title2}</h3>
+                    <div class="programing-languages">
+                        <ul>
+                            <li>${card.technology[0]}</li>
+                            <li>${card.technology[1]}</li>
+                            <li>${card.technology[2]}</li>
+                            <li>${card.technology[3]}</li>
+                        </ul>
+                    </div>
+                    <button onclick="${showPopup(card.id)}" class="green-button interaction-btn">${card.button}</button>
+                </div>
+        </article>
+        
+    `;
+    // <div><img src="${card.image}"</div>
+  });
+}
 
 generateCardSection();
