@@ -147,7 +147,7 @@ const showPopup = (id) => {
   popup.innerHTML = `
   <article class="popup-card-holder">
       <div class="popup-card">
-        <p onclick= ${hidePopup()} class="popup-close">X</p>
+        <p class="popup-close">X</p>
         <button onclick="hidePopup()" class="closeButton"><img src="images-3/closeBtn.svg"></button>
         <div class="popup-img-box">
           <img src="${card[id].image}" />
@@ -176,6 +176,10 @@ const showPopup = (id) => {
         </div>
   </article>  
 `;
+  const closeBtn = document.querySelector('.popup-close');
+  closeBtn.addEventListener('click', () => {
+    hidePopup();
+  });
 };
 
 function generateCardSection() {
@@ -196,7 +200,7 @@ function generateCardSection() {
                             <li>${card.technology[3]}</li>
                         </ul>
                     </div>
-                    <button onclick="${showPopup(card.id)}" class="green-button interaction-btn">${card.button}</button>
+                    <button  id="${card.id}" class="green-button interaction-btn btns">${card.button}</button>
                 </div>
         </article>
         
@@ -206,3 +210,10 @@ function generateCardSection() {
 }
 
 generateCardSection();
+
+const buttons = document.querySelectorAll('.btns');
+buttons.forEach((btns) => {
+  btns.addEventListener('click', () => {
+    showPopup(parseInt(btns.id, 10));
+  });
+});
