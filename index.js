@@ -220,10 +220,7 @@ buttons.forEach((btns) => {
 
 const emailInput = document.getElementById('emailInput');
 const email = emailInput.value;
-const firstNameInput = document.querySelector('.input-name[name="first_name"]');
-const lastNameInput = document.querySelector('.input-name[name="last_name"]');
-const errorElement = document.getElementById('error');
-const errorElement = document.getElementById('error');
+
 const errorElement = document.getElementById('error');
 function validateForm() {
   if (email !== email.toLowerCase()) {
@@ -235,13 +232,13 @@ function validateForm() {
     // Validate mobile fields
     const fullNameInput = document.querySelector('.input-full-name[name="name"]');
     if (!fullNameInput.value) {
-      
       errorElement.textContent = 'Full name is required.';
       return false;
     }
   } else {
     // Validate desktop fields
-
+    const firstNameInput = document.querySelector('.input-name[name="first_name"]');
+    const lastNameInput = document.querySelector('.input-name[name="last_name"]');
     if (!firstNameInput.value || !lastNameInput.value) {
       errorElement.textContent = 'First name and last name are required.';
       return false;
