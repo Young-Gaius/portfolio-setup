@@ -180,7 +180,7 @@
                 in touch.</p>
         </div>
         <div class="input-section">
-            <form action="https://formspree.io/f/xqkovozr" method="POST" class="form">
+            <form action="https://formspree.io/f/xqkovozr" method="POST" id="form" class="form">
 
                 <div class="fill-in-name picture">
                     <input class="input-name" type="text" placeholder="First name" name="name" maxlength="30"
@@ -189,9 +189,10 @@
                 </div>
                 <input class="input-full-name" type="text" placeholder="Full name" name="name" maxlength="30"
                     required />
-                <input class="input-email" type="email" placeholder="Email address" name="email" required />
+                <input id= "input-email" class="input-email" type="email" placeholder="Email address" name="email" required />
                 <textarea class="input-msg" placeholder="Hey I'd like to connect to..." name="message" rows="8"
                     maxlength="500" required></textarea>
+                    <div id="error-message" class="error-message"></div>
                 <div class="get-in-touch-button interaction-btn"><button class="interaction-button" type="submit">Get in
                         touch</button>
                 </div>

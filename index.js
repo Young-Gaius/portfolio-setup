@@ -217,3 +217,44 @@ buttons.forEach((btns) => {
     showPopup(parseInt(btns.id, 10));
   });
 });
+
+// const formInput = document.querySelector(".form");
+// const inputEmail = document.querySelector(".input-email");
+// const errorMessage = document.querySelector(".error-message");
+// const inputContainer = document.querySelector(".input-container");
+
+
+// function validateEmail() {
+//   var emailInput = document.querySelector(".input-email");
+//   var email = input-email.value;
+//   if (email !== email.toLowerCase()) {
+//       var errorMessage = document.querySelector(".error-message");
+//       errorMessage.textContent = "Please enter the email in lowercase.";
+//       return false; 
+//   }
+//   return true; 
+// }
+
+// function validateEmail() {
+//   var emailInput = document.getElementById("emailInput");
+//   var email = emailInput.value;
+//   if (email !== email.toLowerCase()) {
+//       var errorElement = document.getElementById("error");
+//       errorElement.textContent = "Please enter the email in lowercase.";
+//       return false; 
+//   }
+//   return true; 
+// }
+
+// const form = document.getElementById("form")
+// const email = document.querySelector("#input-email")
+// const error = document.querySelector("#error-message")
+
+// form.addEventListener("submit", (event) => {
+//   if(email.value !== email.value.toLowerCase()){
+//     event.preventDefault();
+//     error.textContent = "please fill in an email address with lowercase";
+//   }
+// } );
+
+

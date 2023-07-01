@@ -323,6 +323,11 @@ main {
   padding: 9px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
+  width: 100%;
+}
+
+.input-email {
+  outline: none;
 }
 
 .input-full-name {
