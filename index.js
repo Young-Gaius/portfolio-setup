@@ -218,43 +218,37 @@ buttons.forEach((btns) => {
   });
 });
 
-// const formInput = document.querySelector(".form");
-// const inputEmail = document.querySelector(".input-email");
-// const errorMessage = document.querySelector(".error-message");
-// const inputContainer = document.querySelector(".input-container");
+const emailInput = document.getElementById('emailInput');
+const email = emailInput.value;
+const firstNameInput = document.querySelector('.input-name[name="first_name"]');
+const lastNameInput = document.querySelector('.input-name[name="last_name"]');
+const errorElement = document.getElementById('error');
+const errorElement = document.getElementById('error');
+function validateForm() {
+  if (email !== email.toLowerCase()) {
+    errorElement.textContent = 'Email address must be in lower case.';
+    return false;
+  }
 
+  if (window.innerWidth <= 767) {
+    // Validate mobile fields
+    const fullNameInput = document.querySelector('.input-full-name[name="name"]');
+    if (!fullNameInput.value) {
+      
+      errorElement.textContent = 'Full name is required.';
+      return false;
+    }
+  } else {
+    // Validate desktop fields
 
-// function validateEmail() {
-//   var emailInput = document.querySelector(".input-email");
-//   var email = input-email.value;
-//   if (email !== email.toLowerCase()) {
-//       var errorMessage = document.querySelector(".error-message");
-//       errorMessage.textContent = "Please enter the email in lowercase.";
-//       return false; 
-//   }
-//   return true; 
-// }
+    if (!firstNameInput.value || !lastNameInput.value) {
+      var errorElement = document.getElementById('error');
+      errorElement.textContent = 'First name and last name are required.';
+      return false;
+    }
+  }
 
-// function validateEmail() {
-//   var emailInput = document.getElementById("emailInput");
-//   var email = emailInput.value;
-//   if (email !== email.toLowerCase()) {
-//       var errorElement = document.getElementById("error");
-//       errorElement.textContent = "Please enter the email in lowercase.";
-//       return false; 
-//   }
-//   return true; 
-// }
+  return true;
+}
 
-// const form = document.getElementById("form")
-// const email = document.querySelector("#input-email")
-// const error = document.querySelector("#error-message")
-
-// form.addEventListener("submit", (event) => {
-//   if(email.value !== email.value.toLowerCase()){
-//     event.preventDefault();
-//     error.textContent = "please fill in an email address with lowercase";
-//   }
-// } );
-
-
+validateForm();

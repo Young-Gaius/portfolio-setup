@@ -180,23 +180,24 @@
                 in touch.</p>
         </div>
         <div class="input-section">
-            <form action="https://formspree.io/f/xqkovozr" method="POST" id="form" class="form">
+            <form action="https://formspree.io/f/xqkovozr" method="POST" class="form" onsubmit="return validateForm()">
 
-                <div class="fill-in-name picture">
-                    <input class="input-name" type="text" placeholder="First name" name="name" maxlength="30"
-                        required />
-                    <input class="input-name" type="text" placeholder="Last name" name="name" maxlength="30" required />
-                </div>
-                <input class="input-full-name" type="text" placeholder="Full name" name="name" maxlength="30"
-                    required />
-                <input id= "input-email" class="input-email" type="email" placeholder="Email address" name="email" required />
-                <textarea class="input-msg" placeholder="Hey I'd like to connect to..." name="message" rows="8"
-                    maxlength="500" required></textarea>
-                    <div id="error-message" class="error-message"></div>
-                <div class="get-in-touch-button interaction-btn"><button class="interaction-button" type="submit">Get in
-                        touch</button>
-                </div>
-            </form>
+               
+                <input class="input-full-name" type="text" placeholder="Full name" name="name" maxlength="30" />
+            
+            <div class="fill-in-name picture desktop-field">
+                <input class="input-name" type="text" placeholder="First name" name="first_name" maxlength="30" />
+                <input class="input-name" type="text" placeholder="Last name" name="last_name" maxlength="30" />
+            </div>
+            <input class="input-email" id="emailInput" type="email" placeholder="Email address" name="email" required />
+            <textarea class="input-msg" placeholder="Hey I'd like to connect to..." name="message" rows="8" maxlength="500" required></textarea>
+            <div class="get-in-touch-button interaction-btn">
+                
+                <button class="interaction-button" type="submit">Get in touch</button>
+            </div>
+            <p id="error" style="color: red;"></p>
+        
+        </form>
         </div>
         <div class="design"><img src="images-3/last-design.svg" alt="Design"></div>
         <div class="decor">
