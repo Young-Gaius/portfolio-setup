@@ -412,6 +412,10 @@ main {
   color: #42526e;
 }
 
+#error {
+  color : red;
+}
+
 .line {
   content: '';
   width: 120px;
