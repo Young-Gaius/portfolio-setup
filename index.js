@@ -224,6 +224,7 @@ const firstNameInput = document.querySelector('.input-name[name="first_name"]');
 const lastNameInput = document.querySelector('.input-name[name="last_name"]');
 const errorElement = document.getElementById('error');
 const errorElement = document.getElementById('error');
+const errorElement = document.getElementById('error');
 function validateForm() {
   if (email !== email.toLowerCase()) {
     errorElement.textContent = 'Email address must be in lower case.';
@@ -242,7 +243,6 @@ function validateForm() {
     // Validate desktop fields
 
     if (!firstNameInput.value || !lastNameInput.value) {
-      var errorElement = document.getElementById('error');
       errorElement.textContent = 'First name and last name are required.';
       return false;
     }
